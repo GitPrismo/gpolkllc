@@ -14,6 +14,12 @@ body{
     
 }
 
+#mobile-header{
+
+display:none;
+
+}
+
 #header{
     height:200px;
     width:1000px;
@@ -131,3 +137,27 @@ body{
     background-color: #f2f2f2;
     padding: 20px;
   } 
+
+  @media only screen and (max-width:450px){
+
+    #site{
+        width: 100%;
+        
+    }
+
+    #header{
+         
+        display:none;
+    }
+
+    #content{
+    
+        width:315px;
+        height:auto;
+        background-color: whitesmoke;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        border-radius:10px 10px 0px 0px;
+        padding:15px;
+        
+    }

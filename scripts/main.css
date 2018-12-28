@@ -151,7 +151,8 @@ display:none;
     }
 	#mobile-header{
 
-	
+	display:block;
+	width:100%;
 
 	}
 
